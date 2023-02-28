@@ -1,0 +1,401 @@
+> Task :app:clean
+> Task :app:compileJava
+> Task :app:processResources NO-SOURCE
+> Task :app:classes
+> Task :app:jar
+> Task :app:startScripts
+> Task :app:distTar
+> Task :app:distZip
+> Task :app:assemble
+> Task :app:compileTestJava
+> Task :app:processTestResources NO-SOURCE
+> Task :app:testClasses
+> Task :app:test
+> Task :app:check
+> Task :app:build
+
+BUILD SUCCESSFUL in 1s
+8 actionable tasks: 8 executed
+01:23:19.571 INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+01:23:19.575 INFO: Project root configuration file: /Users/myuser/Munca/PlayGrounds/sqdiffscan/sonar-project.properties
+01:23:19.606 INFO: SonarScanner 4.7.0.2747
+01:23:19.606 INFO: Java 11.0.14.1 Eclipse Adoptium (64-bit)
+01:23:19.606 INFO: Mac OS X 12.6 x86_64
+01:23:19.755 DEBUG: keyStore is : 
+01:23:19.756 DEBUG: keyStore type is : pkcs12
+01:23:19.756 DEBUG: keyStore provider is : 
+01:23:19.756 DEBUG: init keystore
+01:23:19.756 DEBUG: init keymanager of type SunX509
+01:23:19.872 DEBUG: Create: /Users/myuser/.sonar/cache
+01:23:19.873 INFO: User cache: /Users/myuser/.sonar/cache
+01:23:19.873 DEBUG: Create: /Users/myuser/.sonar/cache/_tmp
+01:23:19.874 DEBUG: Extract sonar-scanner-api-batch in temp...
+01:23:19.878 DEBUG: Get bootstrap index...
+01:23:19.878 DEBUG: Download: http://localhost:9000/batch/index
+01:23:19.931 DEBUG: Get bootstrap completed
+01:23:19.934 DEBUG: Create isolated classloader...
+01:23:19.945 DEBUG: Start temp cleaning...
+01:23:19.949 DEBUG: Temp cleaning done
+01:23:19.950 INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+01:23:19.950 INFO: Project root configuration file: /Users/myuser/Munca/PlayGrounds/sqdiffscan/sonar-project.properties
+01:23:19.951 DEBUG: Execution getVersion
+01:23:19.963 INFO: Analyzing on SonarQube server 8.9.9
+01:23:19.963 INFO: Default locale: "ro_RO", source code encoding: "UTF-8" (analysis is platform dependent)
+01:23:19.964 DEBUG: Work directory: /Users/myuser/Munca/PlayGrounds/sqdiffscan/.scannerwork
+01:23:19.964 DEBUG: Execution execute
+01:23:20.147 DEBUG: Community 8.9.9.56886
+01:23:20.263 INFO: Load global settings
+01:23:20.330 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=65ms
+01:23:20.386 INFO: Load global settings (done) | time=123ms
+01:23:20.391 INFO: Server id: BF41A1F2-AYJpthVTzqWxXH9RYluG
+01:23:20.393 INFO: User cache: /Users/myuser/.sonar/cache
+01:23:20.395 INFO: Load/download plugins
+01:23:20.395 INFO: Load plugins index
+01:23:20.400 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=5ms
+01:23:20.427 INFO: Load plugins index (done) | time=32ms
+01:23:20.512 INFO: Load/download plugins (done) | time=117ms
+01:23:20.558 DEBUG: Plugins:
+01:23:20.558 DEBUG:   * Python Code Quality and Security 3.4.1.8066 (python)
+01:23:20.558 DEBUG:   * CSS Code Quality and Security 1.4.2.2002 (cssfamily)
+01:23:20.558 DEBUG:   * Go Code Quality and Security 1.8.3.2219 (go)
+01:23:20.558 DEBUG:   * JaCoCo 1.1.1.1157 (jacoco)
+01:23:20.558 DEBUG:   * Kotlin Code Quality and Security 1.8.3.2219 (kotlin)
+01:23:20.558 DEBUG:   * JavaScript/TypeScript Code Quality and Security 7.4.4.15624 (javascript)
+01:23:20.558 DEBUG:   * Ruby Code Quality and Security 1.8.3.2219 (ruby)
+01:23:20.558 DEBUG:   * Scala Code Quality and Security 1.8.3.2219 (sonarscala)
+01:23:20.559 DEBUG:   * C# Code Quality and Security 8.22.0.31243 (csharp)
+01:23:20.559 DEBUG:   * Java Code Quality and Security 6.15.1.26025 (java)
+01:23:20.559 DEBUG:   * HTML Code Quality and Security 3.4.0.2754 (web)
+01:23:20.559 DEBUG:   * Flex Code Quality and Security 2.6.1.2564 (flex)
+01:23:20.559 DEBUG:   * XML Code Quality and Security 2.2.0.2973 (xml)
+01:23:20.559 DEBUG:   * SonarQube License Check Plugin 5.1.0 (licensecheck)
+01:23:20.559 DEBUG:   * PHP Code Quality and Security 3.17.0.7439 (php)
+01:23:20.559 DEBUG:   * VB.NET Code Quality and Security 8.22.0.31243 (vbnet)
+01:23:20.835 INFO: Process project properties
+01:23:20.840 INFO: Process project properties (done) | time=5ms
+01:23:20.841 INFO: Execute project builders
+01:23:20.841 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+01:23:20.841 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+01:23:20.842 INFO: Execute project builders (done) | time=2ms
+01:23:20.844 INFO: Project key: sqdiffscan
+01:23:20.844 INFO: Base dir: /Users/myuser/Munca/PlayGrounds/sqdiffscan
+01:23:20.844 INFO: Working dir: /Users/myuser/Munca/PlayGrounds/sqdiffscan/.scannerwork
+01:23:20.844 DEBUG: Project global encoding: UTF-8, default locale: ro_RO
+01:23:20.846 DEBUG: Creating module hierarchy
+01:23:20.847 DEBUG:   Init module 'sqdiffscan'
+01:23:20.847 DEBUG:     Base dir: /Users/myuser/Munca/PlayGrounds/sqdiffscan
+01:23:20.847 DEBUG:     Working dir: /Users/myuser/Munca/PlayGrounds/sqdiffscan/.scannerwork
+01:23:20.847 DEBUG:     Module global encoding: UTF-8, default locale: ro_RO
+01:23:20.954 INFO: Load project settings for component key: 'sqdiffscan'
+01:23:20.989 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf?component=sqdiffscan | time=35ms
+01:23:20.991 INFO: Load project settings for component key: 'sqdiffscan' (done) | time=37ms
+01:23:21.013 DEBUG: Available languages:
+01:23:21.014 DEBUG:   * Python => "py"
+01:23:21.014 DEBUG:   * CSS => "css"
+01:23:21.014 DEBUG:   * Go => "go"
+01:23:21.014 DEBUG:   * Kotlin => "kotlin"
+01:23:21.014 DEBUG:   * JavaScript => "js"
+01:23:21.014 DEBUG:   * TypeScript => "ts"
+01:23:21.014 DEBUG:   * Ruby => "ruby"
+01:23:21.014 DEBUG:   * Scala => "scala"
+01:23:21.014 DEBUG:   * C# => "cs"
+01:23:21.014 DEBUG:   * Java => "java"
+01:23:21.014 DEBUG:   * HTML => "web"
+01:23:21.014 DEBUG:   * JSP => "jsp"
+01:23:21.014 DEBUG:   * Flex => "flex"
+01:23:21.014 DEBUG:   * XML => "xml"
+01:23:21.014 DEBUG:   * PHP => "php"
+01:23:21.015 DEBUG:   * VB.NET => "vbnet"
+01:23:21.024 INFO: Load quality profiles
+01:23:21.048 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?project=sqdiffscan | time=24ms
+01:23:21.057 INFO: Load quality profiles (done) | time=33ms
+01:23:21.063 INFO: Load active rules
+01:23:21.094 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJptok1zqWxXH9RYpOR&ps=500&p=1 | time=31ms
+01:23:21.140 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJpton1zqWxXH9RYpPu&ps=500&p=1 | time=22ms
+01:23:21.149 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJptoqxzqWxXH9RYpQO&ps=500&p=1 | time=5ms
+01:23:21.171 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJptoq2zqWxXH9RYpRJ&ps=500&p=1 | time=21ms
+01:23:21.194 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYKr4_el6B-GRa2Eu0Wd&ps=500&p=1 | time=20ms
+01:23:21.273 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYKr43T16B-GRa2Eu0Op&ps=500&p=1 | time=76ms
+01:23:21.343 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJpto0VzqWxXH9RYpfT&ps=500&p=1 | time=57ms
+01:23:21.368 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJpto3RzqWxXH9RYpif&ps=500&p=1 | time=17ms
+01:23:21.466 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJpto6OzqWxXH9RYprE&ps=500&p=1 | time=96ms
+01:23:21.663 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYKr4uTk6B-GRa2Euz4-&ps=500&p=1 | time=188ms
+01:23:21.696 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJptpCvzqWxXH9RYqFi&ps=500&p=1 | time=20ms
+01:23:21.718 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJptpaVzqWxXH9RYqIK&ps=500&p=1 | time=22ms
+01:23:21.730 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJptpVZzqWxXH9RYqGY&ps=500&p=1 | time=10ms
+01:23:21.783 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJptpc9zqWxXH9RYqNQ&ps=500&p=1 | time=53ms
+01:23:21.841 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYJptpmAzqWxXH9RYqVw&ps=500&p=1 | time=54ms
+01:23:21.903 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYKr5INO6B-GRa2Eu0YK&ps=500&p=1 | time=59ms
+01:23:21.917 INFO: Load active rules (done) | time=854ms
+01:23:21.963 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+01:23:21.963 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+01:23:21.963 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+01:23:21.963 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+01:23:21.963 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.mjs,**/*.vue
+01:23:21.963 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+01:23:21.963 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+01:23:21.964 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+01:23:21.964 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+01:23:21.964 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+01:23:21.964 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml
+01:23:21.964 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+01:23:21.964 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+01:23:21.964 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+01:23:21.964 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+01:23:21.965 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+01:23:21.966 DEBUG: Will ignore generated code
+01:23:21.967 DEBUG: Will ignore generated code
+01:23:21.967 INFO: Indexing files...
+01:23:21.967 INFO: Project configuration:
+01:23:21.968 INFO:   Included sources: app/src/main/**/*
+01:23:21.968 INFO:   Excluded sources: app/build/**/*
+01:23:21.977 DEBUG: loading config FileBasedConfig[/Users/myuser/.config/jgit/config]
+01:23:21.978 DEBUG: readpipe [/usr/local/bin/git, --version],/usr/local/bin
+01:23:21.995 DEBUG: readpipe may return 'git version 2.23.0'
+01:23:21.995 DEBUG: remaining output:
+
+01:23:21.996 DEBUG: readpipe [/usr/local/bin/git, config, --system, --edit],/usr/local/bin
+01:23:22.004 DEBUG: readpipe may return '/usr/local/git/etc/gitconfig'
+01:23:22.004 DEBUG: remaining output:
+
+01:23:22.005 DEBUG: loading config FileBasedConfig[/usr/local/git/etc/gitconfig]
+01:23:22.006 DEBUG: loading config FileBasedConfig[/Users/myuser/.gitconfig]
+01:23:22.041 DEBUG: 18 non excluded files in this Git repository
+01:23:22.053 DEBUG: 'app/src/main/java/sqdiffscan/Address.java' indexed with language 'java'
+01:23:22.054 DEBUG: 'app/src/main/java/sqdiffscan/Person.java' indexed with language 'java'
+01:23:22.055 DEBUG: 'app/src/main/java/sqdiffscan/App.java' indexed with language 'java'
+01:23:22.057 DEBUG: 'app/src/test/java/sqdiffscan/AppTest.java' indexed as test with language 'java'
+01:23:22.058 INFO: 4 files indexed
+01:23:22.058 INFO: 35 files ignored because of inclusion/exclusion patterns
+01:23:22.058 INFO: 0 files ignored because of scm ignore settings
+01:23:22.058 INFO: Quality profile for java: ACME
+01:23:22.058 INFO: ------------- Run sensors on module sqdiffscan
+01:23:22.119 INFO: Load metrics repository
+01:23:22.126 DEBUG: GET 200 http://localhost:9000/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=6ms
+01:23:22.137 INFO: Load metrics repository (done) | time=18ms
+01:23:22.681 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+01:23:22.681 DEBUG: 'Python Sensor' skipped because there is no related file in current project
+01:23:22.681 DEBUG: 'Cobertura Sensor for Python coverage' skipped because there is no related file in current project
+01:23:22.681 DEBUG: 'PythonXUnitSensor' skipped because there is no related file in current project
+01:23:22.682 DEBUG: 'Import of Pylint issues' skipped because there is no related file in current project
+01:23:22.682 DEBUG: 'Import of Bandit issues' skipped because there is no related file in current project
+01:23:22.682 DEBUG: 'Import of Flake8 issues' skipped because there is no related file in current project
+01:23:22.682 DEBUG: 'CSS Metrics' skipped because there is no related file in current project
+01:23:22.682 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
+01:23:22.682 DEBUG: 'Code Quality and Security for Go' skipped because there is no related file in current project
+01:23:22.682 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+01:23:22.683 DEBUG: 'Go Cover sensor for Go coverage' skipped because one of the required properties is missing
+01:23:22.683 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+01:23:22.683 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+01:23:22.683 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+01:23:22.683 DEBUG: 'Import of GolangCI-Lint issues' skipped because there is no related file in current project
+01:23:22.683 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+01:23:22.683 DEBUG: 'KotlinSurefireSensor' skipped because there is no related file in current project
+01:23:22.684 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+01:23:22.684 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+01:23:22.684 DEBUG: 'JavaScript analysis' skipped because there is no related file in current project
+01:23:22.684 DEBUG: 'TypeScript analysis' skipped because there is no related file in current project
+01:23:22.684 DEBUG: 'JavaScript/TypeScript Coverage' skipped because there is no related file in current project
+01:23:22.684 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+01:23:22.685 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+01:23:22.685 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+01:23:22.685 DEBUG: 'Import of RuboCop issues' skipped because there is no related file in current project
+01:23:22.685 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+01:23:22.685 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+01:23:22.685 DEBUG: 'Scoverage sensor for Scala coverage' skipped because there is no related file in current project
+01:23:22.686 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+01:23:22.686 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+01:23:22.686 DEBUG: 'Import of Checkstyle issues' skipped because one of the required properties is missing
+01:23:22.686 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+01:23:22.686 DEBUG: 'Import of SpotBugs issues' skipped because one of the required properties is missing
+01:23:22.687 DEBUG: 'Removed properties sensor' skipped because one of the required properties is missing
+01:23:22.687 DEBUG: 'Flex' skipped because there is no related file in current project
+01:23:22.687 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+01:23:22.687 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+01:23:22.687 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+01:23:22.688 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+01:23:22.689 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+01:23:22.689 DEBUG: Sensors : JavaSquidSensor -> CSS Rules -> JaCoCo XML Report Importer -> C# Project Type Information -> C# Properties -> SurefireSensor -> JavaXmlSensor -> HTML -> License Check -> VB.NET Project Type Information -> VB.NET Properties
+01:23:22.690 INFO: Sensor JavaSquidSensor [java]
+01:23:22.938 INFO: Configured Java source version (sonar.java.source): 8
+01:23:22.946 INFO: JavaClasspath initialization
+01:23:22.953 DEBUG: Property 'sonar.java.jdkHome' set with: /Users/myuser/.jenv/versions/1.8.0.301
+01:23:22.964 DEBUG: Property 'sonar.java.jdkHome' resolved with:
+[/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/jconsole.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/packager.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/ant-javafx.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/sa-jdi.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/dt.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/javafx-mx.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/tools.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/javaws.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/management-agent.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/plugin.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jfxswt.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/resources.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jfr.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jsse.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jce.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/deploy.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/rt.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/charsets.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/nashorn.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/sunec.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/localedata.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/jaccess.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/zipfs.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/dnsns.jar]
+01:23:22.965 DEBUG: Property 'sonar.java.libraries' resolved with:
+[]
+01:23:22.965 INFO: JavaClasspath initialization (done) | time=19ms
+01:23:22.965 INFO: JavaTestClasspath initialization
+01:23:22.965 DEBUG: Property 'sonar.java.jdkHome' set with: /Users/myuser/.jenv/versions/1.8.0.301
+01:23:22.969 DEBUG: Property 'sonar.java.jdkHome' resolved with:
+[/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/jconsole.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/packager.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/ant-javafx.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/sa-jdi.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/dt.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/javafx-mx.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/lib/tools.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/javaws.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/management-agent.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/plugin.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jfxswt.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/resources.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jfr.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jsse.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jce.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/deploy.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/rt.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/charsets.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/nashorn.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/sunec.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/localedata.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/jaccess.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/jfxrt.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/zipfs.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/cldrdata.jar,
+/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext/dnsns.jar]
+01:23:22.969 DEBUG: Property 'sonar.java.test.libraries' resolved with:
+[]
+01:23:22.969 INFO: JavaTestClasspath initialization (done) | time=4ms
+01:23:22.977 INFO: Java Main Files AST scan
+01:23:22.978 INFO: 3 source files to be analyzed
+01:23:22.984 INFO: Load project repositories
+01:23:22.989 DEBUG: GET 200 http://localhost:9000/batch/project.protobuf?key=sqdiffscan | time=5ms
+01:23:22.992 INFO: Load project repositories (done) | time=8ms
+01:23:22.993 DEBUG: 'app/src/main/java/sqdiffscan/App.java' generated metadata with charset 'UTF-8'
+01:23:23.550 DEBUG: 'app/src/main/java/sqdiffscan/Address.java' generated metadata with charset 'UTF-8'
+01:23:23.601 DEBUG: 'app/src/main/java/sqdiffscan/Person.java' generated metadata with charset 'UTF-8'
+01:23:23.651 INFO: 3/3 source files have been analyzed
+01:23:23.652 WARN: Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+01:23:23.652 DEBUG: Unresolved imports/types:
+- Address cannot be resolved to a type
+01:23:23.652 INFO: Java Main Files AST scan (done) | time=675ms
+01:23:23.652 INFO: Java Test Files AST scan
+01:23:23.652 INFO: 1 source file to be analyzed
+01:23:23.653 DEBUG: 'app/src/test/java/sqdiffscan/AppTest.java' generated metadata as test  with charset 'UTF-8'
+01:23:23.692 INFO: 1/1 source file has been analyzed
+01:23:23.693 WARN: Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+01:23:23.693 DEBUG: Unresolved imports/types:
+- App cannot be resolved
+- Test cannot be resolved to a type
+- The import org.junit cannot be resolved
+01:23:23.693 INFO: Java Test Files AST scan (done) | time=41ms
+01:23:23.693 INFO: Java Generated Files AST scan
+01:23:23.693 INFO: 0 source files to be analyzed
+01:23:23.693 INFO: 0/0 source files have been analyzed
+01:23:23.693 INFO: Java Generated Files AST scan (done) | time=0ms
+01:23:23.693 INFO: Sensor JavaSquidSensor [java] (done) | time=1003ms
+01:23:23.693 INFO: Sensor CSS Rules [cssfamily]
+01:23:23.694 INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+01:23:23.694 INFO: Sensor CSS Rules [cssfamily] (done) | time=1ms
+01:23:23.694 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+01:23:23.695 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+01:23:23.696 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+01:23:23.696 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=2ms
+01:23:23.696 INFO: Sensor C# Project Type Information [csharp]
+01:23:23.696 INFO: Sensor C# Project Type Information [csharp] (done) | time=0ms
+01:23:23.696 INFO: Sensor C# Properties [csharp]
+01:23:23.697 DEBUG: Project 'sqdiffscan': No Roslyn issues reports have been found.
+01:23:23.697 INFO: Sensor C# Properties [csharp] (done) | time=1ms
+01:23:23.697 INFO: Sensor SurefireSensor [java]
+01:23:23.697 INFO: parsing [/Users/myuser/Munca/PlayGrounds/sqdiffscan/target/surefire-reports]
+01:23:23.698 INFO: Sensor SurefireSensor [java] (done) | time=1ms
+01:23:23.698 INFO: Sensor JavaXmlSensor [java]
+01:23:23.698 INFO: Sensor JavaXmlSensor [java] (done) | time=0ms
+01:23:23.699 INFO: Sensor HTML [web]
+01:23:23.700 INFO: Sensor HTML [web] (done) | time=1ms
+01:23:23.700 INFO: Sensor License Check [licensecheck]
+01:23:23.702 INFO: No license-details.json file found in /Users/myuser/Munca/PlayGrounds/sqdiffscan/build/reports/dependency-license/license-details.json - skipping Gradle dependency scan
+01:23:23.706 DEBUG: Saving dependencies for module [key=sqdiffscan]: []
+01:23:23.706 DEBUG: Saving licenses for project [key=sqdiffscan]: []
+01:23:23.707 INFO: Sensor License Check [licensecheck] (done) | time=7ms
+01:23:23.707 INFO: Sensor VB.NET Project Type Information [vbnet]
+01:23:23.708 INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+01:23:23.708 INFO: Sensor VB.NET Properties [vbnet]
+01:23:23.708 DEBUG: Project 'sqdiffscan': No Roslyn issues reports have been found.
+01:23:23.708 INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
+01:23:23.710 INFO: ------------- Run sensors on project
+01:23:23.718 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+01:23:23.719 DEBUG: 'C#' skipped because there is no related file in current project
+01:23:23.719 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+01:23:23.719 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+01:23:23.719 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+01:23:23.719 DEBUG: 'VB.NET' skipped because there is no related file in current project
+01:23:23.719 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+01:23:23.719 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+01:23:23.720 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+01:23:23.720 DEBUG: Sensors : Zero Coverage Sensor -> Java CPD Block Indexer
+01:23:23.720 INFO: Sensor Zero Coverage Sensor
+01:23:23.726 INFO: Sensor Zero Coverage Sensor (done) | time=6ms
+01:23:23.726 INFO: Sensor Java CPD Block Indexer
+01:23:23.729 DEBUG: Populating index from app/src/main/java/sqdiffscan/App.java
+01:23:23.732 DEBUG: Not enough content in 'app/src/main/java/sqdiffscan/App.java' to have CPD blocks, it will not be part of the duplication detection
+01:23:23.732 DEBUG: Populating index from app/src/main/java/sqdiffscan/Address.java
+01:23:23.733 DEBUG: Not enough content in 'app/src/main/java/sqdiffscan/Address.java' to have CPD blocks, it will not be part of the duplication detection
+01:23:23.733 DEBUG: Populating index from app/src/main/java/sqdiffscan/Person.java
+01:23:23.734 DEBUG: Not enough content in 'app/src/main/java/sqdiffscan/Person.java' to have CPD blocks, it will not be part of the duplication detection
+01:23:23.734 INFO: Sensor Java CPD Block Indexer (done) | time=8ms
+01:23:23.735 INFO: SCM Publisher SCM provider for this project is: git
+01:23:23.735 INFO: SCM Publisher 4 source files to be analyzed
+01:23:23.740 DEBUG: Blame file app/src/test/java/sqdiffscan/AppTest.java
+01:23:23.740 DEBUG: Blame file app/src/main/java/sqdiffscan/App.java
+01:23:23.740 DEBUG: Blame file app/src/main/java/sqdiffscan/Person.java
+01:23:23.740 DEBUG: Blame file app/src/main/java/sqdiffscan/Address.java
+01:23:23.798 DEBUG: Unable to blame file app/src/main/java/sqdiffscan/App.java. No blame info at line 6. Is file committed? [Author: PersonIdent[Not Committed Yet, , Wed Mar 1 01:23:23 2023 +0200] Source commit: null]
+01:23:23.800 DEBUG: Unable to blame file app/src/main/java/sqdiffscan/Address.java. No blame info at line 4. Is file committed? [Author: PersonIdent[Not Committed Yet, , Wed Mar 1 01:23:23 2023 +0200] Source commit: null]
+01:23:23.803 INFO: SCM Publisher 2/4 source files have been analyzed (done) | time=66ms
+01:23:23.803 WARN: Missing blame information for the following files:
+01:23:23.803 WARN:   * app/src/main/java/sqdiffscan/App.java
+01:23:23.803 WARN:   * app/src/main/java/sqdiffscan/Address.java
+01:23:23.803 WARN: This may lead to missing/broken features in SonarQube
+01:23:23.804 INFO: CPD Executor 3 files had no CPD blocks
+01:23:23.804 INFO: CPD Executor Calculating CPD for 0 files
+01:23:23.804 INFO: CPD Executor CPD calculation finished (done) | time=0ms
+01:23:23.810 DEBUG: SCM revision ID '3931ee63141947a3d83ba1436800a197a91c9e8f'
+01:23:23.847 INFO: Analysis report generated in 40ms, dir size=157 KB
+01:23:23.901 INFO: Analysis report compressed in 54ms, zip size=25 KB
+01:23:23.901 INFO: Analysis report generated in /Users/myuser/Munca/PlayGrounds/sqdiffscan/.scannerwork/scanner-report
+01:23:23.901 DEBUG: Upload report
+01:23:23.915 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=sqdiffscan | time=13ms
+01:23:23.916 INFO: Analysis report uploaded in 15ms
+01:23:23.917 DEBUG: Report metadata written to /Users/myuser/Munca/PlayGrounds/sqdiffscan/.scannerwork/report-task.txt
+01:23:23.917 INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard?id=sqdiffscan
+01:23:23.917 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+01:23:23.917 INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AYaaVnmIAqIh2YPrOXLj
+01:23:23.919 DEBUG: Post-jobs : 
+01:23:23.920 INFO: Analysis total time: 3.349 s
+01:23:23.921 INFO: ------------------------------------------------------------------------
+01:23:23.921 INFO: EXECUTION SUCCESS
+01:23:23.921 INFO: ------------------------------------------------------------------------
+01:23:23.921 INFO: Total time: 4.371s
+01:23:23.952 INFO: Final Memory: 8M/40M
+01:23:23.953 INFO: ------------------------------------------------------------------------
